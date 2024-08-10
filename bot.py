@@ -389,7 +389,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                                InlineKeyboardButton("🤖 Join Updates Channel", url="https://t.me/+-CaYhSPW5VwzNjM1")
                             ],
                             [
                                 InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
@@ -400,7 +400,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/+kG9L8w7YAZsyMjE1).",
+                    text="[Thank You](https://t.me/+kG9L8w7YAZsyMjE1).",
                     disable_web_page_preview=True
                 )
                 return
