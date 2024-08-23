@@ -71,7 +71,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("·ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ·", url="https://t.me/+bghu_g--vIE4YzI1"),
+                        InlineKeyboardButton("·ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ·", url="https://t.me/+Qi0jCnSsuFkwODA1"),
                         InlineKeyboardButton("·ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ·", url="https://t.me/+-CaYhSPW5VwzNjM1"),
                     ],
                     [
@@ -354,7 +354,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("·ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ·", url="https://t.me/+bghu_g--vIE4YzI1"),
+                        InlineKeyboardButton("·ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ·", url="https://t.me/+Qi0jCnSsuFkwODA1"),
                          InlineKeyboardButton("·ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ·", url="https://t.me/+-CaYhSPW5VwzNjM1"),
                     ],
                     [
@@ -410,7 +410,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("·ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ·", url="https://t.me/+bghu_g--vIE4YzI1"),
+                        InlineKeyboardButton("·ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ·", url="https://t.me/+Qi0jCnSsuFkwODA1"),
                         InlineKeyboardButton("·ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ·", url="https://t.me/+-CaYhSPW5VwzNjM1")
                     ],
                 ]
