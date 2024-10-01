@@ -1,14 +1,14 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", "12380656"))
-  API_HASH = os.environ.get("API_HASH", "d927c13beaaf5110f25c505b7c071273")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6289968122:AAGxHai-BPG3-cO_oMBTTMUregDAdpo1R6U")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Eren_Yeager_007_Bot")
+  API_ID = int(os.environ.get("API_ID", "26444821"))
+  API_HASH = os.environ.get("API_HASH", "a58efd1d6483e3f0d5b2757d9f665c24")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6900426882:AAFnoyFmTncvh8JvmdIOEDv-LysK0KfI0R0")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Monkey_D_Luffy_004_bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001939577738"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "MoneyKamalo.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "0eefb93e1e3ce9470a7033115ceb1bad13a9d674")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", "6728038801"))
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "1581901379"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://MRDAXX:MRDAXX@mrdaxx.prky3aj.mongodb.net/?retryWrites=true&w=majority")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002195043297")
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001939577738"))
