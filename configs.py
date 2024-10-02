@@ -1,11 +1,11 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", "26444821"))
-  API_HASH = os.environ.get("API_HASH", "a58efd1d6483e3f0d5b2757d9f665c24")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6900426882:AAFnoyFmTncvh8JvmdIOEDv-LysK0KfI0R0")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Monkey_D_Luffy_004_bot")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002007551275"))
+  API_ID = int(os.environ.get("API_ID", ""))
+  API_HASH = os.environ.get("API_HASH", "")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "vipurl.in")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "c79e4a5f2a727fd1fe1361f2903d2360a80e0a77")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "1581901379"))
