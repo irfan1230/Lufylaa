@@ -1,5 +1,5 @@
-Pyrogram
-TgCrypto
+pyrofork
+TgCrypto-pyrofork
 motor
 aiofiles
 dnspython

@@ -121,7 +121,7 @@ async def main(bot: Client, message: Message):
                                      disable_web_page_preview=True)
             return
 
-        if Config.OTHER_USERS_CAN_SAVE_FILE is True:
+        if message.from_user.id not in Config.BOT_ADMINS:
             return
         try:
             forwarded_msg = await message.forward(Config.DB_CHANNEL)
@@ -215,11 +215,11 @@ async def ban(c: Client, m: Message):
     
     if len(m.command) == 1:
         await m.reply_text(
-            f"Use this command to ban any user from the bot.\n\n"
-            f"Usage:\n\n"
-            f"`/ban_user user_id ban_duration ban_reason`\n\n"
-            f"Eg: `/ban_user 1234567 28 You misused me.`\n"
-            f"This will ban user with id `1234567` for `28` days for the reason `You misused me`.",
+            "Use this command to ban any user from the bot.\n\n"
+            "Usage:\n\n"
+            "`/ban_user user_id ban_duration ban_reason`\n\n"
+            "Eg: `/ban_user 1234567 28 You misused me.`\n"
+            "This will ban user with id `1234567` for `28` days for the reason `You misused me`.",
             quote=True
         )
         return
@@ -259,10 +259,10 @@ async def unban(c: Client, m: Message):
 
     if len(m.command) == 1:
         await m.reply_text(
-            f"Use this command to unban any user.\n\n"
-            f"Usage:\n\n`/unban_user user_id`\n\n"
-            f"Eg: `/unban_user 1234567`\n"
-            f"This will unban user with id `1234567`.",
+            "Use this command to unban any user.\n\n"
+            "Usage:\n\n`/unban_user user_id`\n\n"
+            "Eg: `/unban_user 1234567`\n"
+            "This will unban user with id `1234567`.",
             quote=True
         )
         return
@@ -273,7 +273,7 @@ async def unban(c: Client, m: Message):
         try:
             await c.send_message(
                 user_id,
-                f"Your ban was lifted!"
+                "Your ban was lifted!"
             )
             unban_log_text += '\n\nUser notified successfully!'
         except:
@@ -450,7 +450,8 @@ async def button(bot: Client, cmd: CallbackQuery):
 
     try:
         await cmd.answer()
-    except QueryIdInvalid: pass
+    except QueryIdInvalid:
+        pass
 
 
 Bot.run()
