@@ -71,8 +71,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("·ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ·", url="https://t.me/starlock_Tech"),
-                        InlineKeyboardButton("·ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ·", url="https://t.me/+tADeHQY4L78xYTZl"),
+                        InlineKeyboardButton("·ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ·v", url="https://t.me/starlock_Tech"),
+                        InlineKeyboardButton("·ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ·a", url="https://t.me/+tADeHQY4L78xYTZl"),
                         InlineKeyboardButton("·ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ·", url="https://t.me/+nU0DLjS53PliYjQ9"),
                     ],
                     [
