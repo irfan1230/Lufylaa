@@ -59,7 +59,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
     except Exception:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="Thank you [𝖧𝖺𝗏𝖾 𝖽𝗈𝗎𝖻𝗍𝗌? 𝖥𝖾𝖾𝗅 𝖿𝗋𝖾𝖾 𝗍𝗈 𝖼𝗈𝗇𝗍𝖺𝖼𝗍 𝗈𝗎𝗋 𝖺𝖽𝗆𝗂𝗇 𝗍𝖾𝖺𝗆 𝖶𝖾'𝗋𝖾 𝗁𝖾𝗋𝖾 𝗍𝗈 𝗁𝖾𝗅𝗉!](https://t.me/+HtOD0pls8kY3Njc9).",
+            text="Thank you [𝖧𝖺𝗏𝖾 𝖽𝗈𝗎𝖻𝗍𝗌? 𝖥𝖾𝖾𝗅 𝖿𝗋𝖾𝖾 𝗍𝗈 𝖼𝗈𝗇𝗍𝖺𝖼𝗍 𝗈𝗎𝗋 𝖺𝖽𝗆𝗂𝗇 𝗍𝖾𝖺𝗆 𝖶𝖾'𝗋𝖾 𝗁𝖾𝗋𝖾 𝗍𝗈 𝗁𝖾𝗅𝗉!](https://t.me/Movies_Cooker).",
             disable_web_page_preview=True
         )
         return 200
