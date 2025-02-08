@@ -37,6 +37,8 @@ async def handle_force_sub(bot: Client, cmd: Message):
     except UserNotParticipant:
         try:
             invite_link = await get_invite_link(bot, chat_id=channel_chat_id)
+            invite_link2= 'https://t.me/+ZbR53Oiy031kZDM1'
+
         except Exception as err:
             print(f"Unable to do Force Subscribe to {Config.UPDATES_CHANNEL}\n\nError: {err}")
             return 200
@@ -50,7 +52,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
                         InlineKeyboardButton("🤖 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url=invite_link.invite_link)
                     ],
                      [
-                        InlineKeyboardButton("🤖 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url=invite_link.invite_link)
+                        InlineKeyboardButton("🤖 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url=invite_link.invite_link2)
                     ],
                      [
                         InlineKeyboardButton("🤖 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url=invite_link.invite_link)
