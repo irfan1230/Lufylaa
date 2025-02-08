@@ -384,7 +384,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                     return
             except UserNotParticipant:
                 invite_link = await get_invite_link(channel_chat_id)
-                invite_link2= https://t.me/+ZbR53Oiy031kZDM1
+                invite_link2= 'https://t.me/+ZbR53Oiy031kZDM1'
 
                 await cmd.message.edit(
                     text="**I like Your Smartness But Don't Be Oversmart! 😑**\n\n",
